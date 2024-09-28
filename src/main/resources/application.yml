@@ -29,15 +29,19 @@ application:
         path: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
         type: hosts
 
+      - name: Adaway
+        path: https://adaway.org/hosts.txt
+        type: hosts
+
       - name: AWAvenue-Adblock-Rule
         path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
         type: easylist
-
-      - name: NoAppDownload
-        path: https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt
+  
+      - name: AdGuard_blackmatrix7
+        path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
         type: easylist
 
-      - name: Cats-Team AdBlock
+      - name: Cats-Team Adrules
         path: https://adrules.top/dns.txt
         type: easylist
 
@@ -48,10 +52,7 @@ application:
       - name: hagezi/dns-blocklists pro
         path: https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.mini.txt
         type: easylist
-
-      - name: xndeye web-ad-rule
-        path: https://raw.githubusercontent.com/xndeye/web-ad-rule/master/easylist.txt
-        type: easylist
+        
     #本地规则文件
     #local:
      # - name: 'local rule'
@@ -64,7 +65,7 @@ application:
     file_header: |
       ADFS AdBlock ${type}
       Last Modified: ${date}
-      Homepage: https://github.com/fordes123/ad-filters-subscriber/
+      Homepage: https://github.com/fhvvbvn/ad-filters-subscriber
 
     path: rule #输出规则文件的路径，支持绝对/相对路径
     #输出规则文件列表 （！注意缩进，且每个类型只能输出一个文件）
