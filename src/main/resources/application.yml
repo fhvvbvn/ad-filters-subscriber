@@ -45,9 +45,27 @@ application:
         path: https://github.com/fhvvbvn/adblockfilters/raw/refs/heads/main/rules/adblockdns.txt
         type: easylist
 
-      - name: hagezi/dns-blocklists pro
-        path: https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/pro.mini.txt
+      - name: hagezi/dns-blocklists pro++
+        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt
         type: easylist
+        
+      - name: oisd
+        path: https://small.oisd.nl
+        type: easylist
+
+      - name: Cats-Team
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+        type: easylist
+
+      - name: AdGuard 中文
+        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
+        type: easylist
+
+      - name: AdGuard DNS filter
+        path: https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/assets/filter_1.txt
+        type: easylist
+      
+
         
     #本地规则文件
     #local:
