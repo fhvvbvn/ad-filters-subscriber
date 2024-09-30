@@ -49,12 +49,8 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt
         type: easylist
         
-      - name: oisd
-        path: https://small.oisd.nl
-        type: easylist
-
-      - name: Cats-Team
-        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+      - name: goodbyeads
+        path: https://raw.githubusercontent.com/8680/GOODBYEADS/master/data/rules/dns.txt
         type: easylist
 
       - name: AdGuard 中文
