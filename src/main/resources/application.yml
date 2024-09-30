@@ -38,7 +38,7 @@ application:
         type: easylist
   
       - name: AdGuard_blackmatrix7
-        path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
+        path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
         type: easylist
 
       - name: 自用
