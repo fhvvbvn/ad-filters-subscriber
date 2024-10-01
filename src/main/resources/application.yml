@@ -37,7 +37,7 @@ application:
         path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
         type: easylist
 
-      - name: hagezi/dns-blocklists ultimate
+      - name: 0-hagezi/dns-blocklists ultimate
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
         type: easylist
 
@@ -113,6 +113,7 @@ application:
     file_header: |
       ADFS AdBlock ${type}
       Last Modified: ${date}
+      Description: 严格清理互联网并保护您的隐私！阻止广告、联盟、跟踪、指标、遥测、网络钓鱼、恶意软件、诈骗、免费托管、假冒、硬币和其他“垃圾”。
       Homepage: https://github.com/fhvvbvn/ad-filters-subscriber
 
     path: rule #输出规则文件的路径，支持绝对/相对路径
