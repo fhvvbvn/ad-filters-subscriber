@@ -34,7 +34,7 @@ application:
         type: easylist
   
       - name: AdGuard_blackmatrix7
-        path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
+        path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
         type: easylist
 
       - name: Hagezi/dns-blocklists ultimate
