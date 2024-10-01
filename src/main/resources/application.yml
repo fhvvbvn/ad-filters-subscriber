@@ -28,8 +28,8 @@ application:
         path: https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/dns.txt
         type: easylist
   
-      - name: AdGuard_blackmatrix7
-        path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
+      - name: anti-AD
+        path: https://github.com/privacy-protection-tools/anti-AD/raw/refs/heads/master/anti-ad-adguard.txt
         type: easylist
 
       - name: Hagezi/dns-blocklists ultimate
