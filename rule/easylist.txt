@@ -1,6 +1,6 @@
 ! ADFS AdBlock easylist
 ! Title: 混合更新
-! Version: 2024-10-01 20:53:03
+! Version: 2024-10-01 21:06:45
 ! Expires: 3 days
 ! Description: 严格清理互联网并保护您的隐私！阻止广告、联盟、跟踪、指标、遥测、网络钓鱼、恶意软件、诈骗、免费托管、假冒、硬币和其他“垃圾”。
 ! Homepage: https://github.com/fhvvbvn/ad-filters-subscriber
