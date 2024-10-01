@@ -36,18 +36,6 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.mini.txt
         type: easylist
 
-      - name: HUAWEI
-        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.huawei.txt
-        type: easylist
-
-      - name: 抖音
-        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.tiktok.txt
-        type: easylist
-
-      - name: 微软
-        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.winoffice.txt
-        type: easylist
-
       - name: Dynamic DNS
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
         type: easylist
