@@ -42,8 +42,8 @@ application:
         type: easylist
 
       - name: anti-AD
-        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/adblock-for-dnsmasq.conf
-        type: smartdns
+        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
+        type: easylist
 
       - name: hagezi/dns-blocklists pro++
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt
@@ -62,8 +62,8 @@ application:
         type: easylist
       
       - name: 'Ad-set-hosts.txt' 
-        path: 'https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard'
-        type: easylist
+        path: 'https://github.com/rentianyu/Ad-set-hosts/raw/refs/heads/master/hosts'
+        type: hosts
         
       - name: '乘风.txt' 
         path: 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt' 
