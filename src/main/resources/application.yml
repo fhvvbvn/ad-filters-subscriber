@@ -17,7 +17,7 @@ application:
     # 域名检测，启用时将进行解析以验证域名有效性
     # 注意: 开启此功能可能导致处理时间大幅延长
     domain-detect:
-      enable: true
+      enable: false
       timeout: 5
 
   # 规则源配置，remote为远程规则，local为本地规则，支持多个规则源
@@ -41,9 +41,9 @@ application:
         path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
         type: easylist
 
-      - name: 自用
-        path: https://github.com/fhvvbvn/adblockfilters/raw/refs/heads/main/rules/adblockdns.txt
-        type: easylist
+      - name: anti-AD
+        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/adblock-for-dnsmasq.conf
+        type: smartdns
 
       - name: hagezi/dns-blocklists pro++
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.mini.txt
@@ -61,7 +61,25 @@ application:
         path: https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/assets/filter_1.txt
         type: easylist
       
-
+      - name: 'Ad-set-hosts.txt' 
+        path: 'https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/adguard'
+        type: easylist
+        
+      - name: '乘风.txt' 
+        path: 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt' 
+        type: easylist
+        
+      - name: '乘风-视频.txt' 
+        path: 'https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt' 
+        type: easylist
+        
+      - name: 'ADgk_banbendalao.txt' 
+        path: 'https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt' 
+        type: easylist
+        
+      - name: '几十KB的轻量规则.txt' 
+        path: 'https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt' 
+        type: easylist
         
     #本地规则文件
     #local:
