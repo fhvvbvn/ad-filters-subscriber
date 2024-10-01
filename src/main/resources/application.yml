@@ -37,7 +37,7 @@ application:
         path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
         type: easylist
 
-      - name: 0-hagezi/dns-blocklists ultimate
+      - name: Hagezi/dns-blocklists ultimate
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
         type: easylist
 
@@ -81,21 +81,13 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.winoffice.txt
         type: easylist
 
-      - name: Loyalsoldier/clash-rules 广告域名列表
-        path: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
-        type: clash
-
       - name: Dynamic DNS
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
         type: easylist
 
-      - name: anti-ad smartdns
-        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-smartdns.conf
-        type: smartdns
-
-      - name: adblock for dnsmasq
-        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/adblock-for-dnsmasq.conf
-        type: dnsmasq
+      - name: anti-ad
+        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
+        type: easylist
 
       - name: anti-ip-attribution
         path: https://raw.githubusercontent.com/SunsetMkt/anti-ip-attribution/main/generated/rule-set-reject.list
@@ -112,7 +104,9 @@ application:
     #可使用占位符 ${name}、${type}、${desc} 以及 ${date} (当前日期)
     file_header: |
       ADFS AdBlock ${type}
-      Last Modified: ${date}
+      Title: 混合更新
+      Version: ${date}
+      Expires: 1 天之前
       Description: 严格清理互联网并保护您的隐私！阻止广告、联盟、跟踪、指标、遥测、网络钓鱼、恶意软件、诈骗、免费托管、假冒、硬币和其他“垃圾”。
       Homepage: https://github.com/fhvvbvn/ad-filters-subscriber
 
