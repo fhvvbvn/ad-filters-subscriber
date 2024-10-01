@@ -49,10 +49,6 @@ application:
         path: https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
         type: easylist
 
-      - name: 几十KB的轻量规则.txt
-        path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
-        type: easylist
-
       - name: HUAWEI
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.huawei.txt
         type: easylist
@@ -90,7 +86,7 @@ application:
       ADFS AdBlock ${type}
       Title: 混合更新
       Version: ${date}
-      Expires: 1 天之前
+      Expires: 3 天之前
       Description: 严格清理互联网并保护您的隐私！阻止广告、联盟、跟踪、指标、遥测、网络钓鱼、恶意软件、诈骗、免费托管、假冒、硬币和其他“垃圾”。
       Homepage: https://github.com/fhvvbvn/ad-filters-subscriber
 
