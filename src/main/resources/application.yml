@@ -17,7 +17,7 @@ application:
     # 域名检测，启用时将进行解析以验证域名有效性
     # 注意: 开启此功能可能导致处理时间大幅延长
     domain-detect:
-      enable: true
+      enable: false
       timeout: 5
 
   # 规则源配置，remote为远程规则，local为本地规则，支持多个规则源
@@ -41,10 +41,6 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
         type: easylist
 
-      - name: AdGuard 中文
-        path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
-        type: easylist
-
       - name: yhosts
         path: https://github.com/VeleSila/yhosts/blob/master/hosts.txt
         type: hosts
@@ -55,10 +51,6 @@ application:
 
       - name: 几十KB的轻量规则.txt
         path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
-        type: easylist
-
-      - name: OISD Blocklist Small
-        path: https://small.oisd.nl
         type: easylist
 
       - name: HUAWEI
