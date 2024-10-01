@@ -17,7 +17,7 @@ application:
     # 域名检测，启用时将进行解析以验证域名有效性
     # 注意: 开启此功能可能导致处理时间大幅延长
     domain-detect:
-      enable: false
+      enable: true
       timeout: 5
 
   # 规则源配置，remote为远程规则，local为本地规则，支持多个规则源
@@ -44,27 +44,23 @@ application:
       - name: AdGuard 中文
         path: https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt
         type: easylist
-        
+
       - name: yhosts
         path: https://github.com/VeleSila/yhosts/blob/master/hosts.txt
         type: hosts
-        
-      - name: 乘风-视频.txt
-        path: https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
-        type: easylist
-        
+
       - name: ADgk_banbendalao.txt
         path: https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
         type: easylist
-        
+
       - name: 几十KB的轻量规则.txt
         path: https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
         type: easylist
-        
+
       - name: OISD Blocklist Small
         path: https://small.oisd.nl
         type: easylist
-        
+
       - name: HUAWEI
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.huawei.txt
         type: easylist
@@ -88,10 +84,6 @@ application:
       - name: anti-ad
         path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
         type: easylist
-
-      - name: anti-ip-attribution
-        path: https://raw.githubusercontent.com/SunsetMkt/anti-ip-attribution/main/generated/rule-set-reject.list
-        type: clash
         
     #本地规则文件
     #local:
