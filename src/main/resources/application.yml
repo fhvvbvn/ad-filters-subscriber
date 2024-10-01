@@ -17,7 +17,7 @@ application:
     # 域名检测，启用时将进行解析以验证域名有效性
     # 注意: 开启此功能可能导致处理时间大幅延长
     domain-detect:
-      enable: false
+      enable: true
       timeout: 5
 
   # 规则源配置，remote为远程规则，local为本地规则，支持多个规则源
@@ -65,7 +65,7 @@ application:
       ADFS AdBlock ${type}
       Title: 混合更新
       Version: ${date}
-      Expires: 3 天之前
+      Expires: 3 days
       Description: 严格清理互联网并保护您的隐私！阻止广告、联盟、跟踪、指标、遥测、网络钓鱼、恶意软件、诈骗、免费托管、假冒、硬币和其他“垃圾”。
       Homepage: https://github.com/fhvvbvn/ad-filters-subscriber
 
