@@ -24,37 +24,20 @@ application:
   rule:
     #远程订阅规则 （！使用前请删除下方示例配置, 注意缩进）
     remote:
-
-      - name: 大圣净化
-        path: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-        type: hosts
-
       - name: AWAvenue-Adblock-Rule
         path: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
         type: easylist
   
       - name: AdGuard_blackmatrix7
-        path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
+        path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
         type: easylist
 
       - name: Hagezi/dns-blocklists ultimate
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.mini.txt
         type: easylist
 
-      - name: yhosts
-        path: https://github.com/VeleSila/yhosts/blob/master/hosts.txt
-        type: hosts
-
-      - name: ADgk_banbendalao.txt
-        path: https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
-        type: easylist
-
       - name: HUAWEI
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.huawei.txt
-        type: easylist
-
-      - name: 小米
-        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/native.xiaomi.txt
         type: easylist
 
       - name: 抖音
@@ -67,10 +50,6 @@ application:
 
       - name: Dynamic DNS
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
-        type: easylist
-
-      - name: anti-ad
-        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
         type: easylist
         
     #本地规则文件
