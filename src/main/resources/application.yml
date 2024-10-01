@@ -36,9 +36,13 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.mini.txt
         type: easylist
 
-      - name: Dynamic DNS
-        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
+      - name: Adguard
+        path: https://filters.adtidy.org/android/filters/15_optimized.txt
         type: easylist
+
+      #- name: Dynamic DNS
+        #path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
+        #type: easylist
         
     #本地规则文件
     #local:
