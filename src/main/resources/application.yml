@@ -64,14 +64,10 @@ application:
     path: rule #输出规则文件的路径，支持绝对/相对路径
     #输出规则文件列表 （！注意缩进，且每个类型只能输出一个文件）
     files:
-      - name: easylist.txt     #必要参数: 文件名
-        type: easylist         #必要参数: 文件类型: easylist、dnsmasq、clash、smartdns、hosts
-        desc: 'ADFS EasyList'  #可选参数: 文件描述，可在file_header中通过 ${} 中使用
-        filter:
-          - unknown            #其他规则，如使用了正则、高级修饰符号等，这表示目前无法支持
 
       - name: dns.txt
         type: easylist
         filter:
           - basic
           - wildcard
+          - unknown
