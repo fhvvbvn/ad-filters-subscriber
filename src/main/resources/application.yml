@@ -33,7 +33,7 @@ application:
         type: easylist
 
       - name: Hagezi/dns-blocklists ultimate
-        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.mini.txt
+        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
         type: easylist
 
       #- name: Adguard
