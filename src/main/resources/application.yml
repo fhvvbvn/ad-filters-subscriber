@@ -29,8 +29,8 @@ application:
         type: easylist
   
       - name: AD-set-hosts
-        path: https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/refs/heads/master/adguard
-        type: easylist
+        path: https://github.com/rentianyu/Ad-set-hosts/raw/refs/heads/master/hosts
+        type: hosts
 
       - name: Hagezi/dns-blocklists ultimate
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
