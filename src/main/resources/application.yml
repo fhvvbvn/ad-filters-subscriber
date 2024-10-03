@@ -27,10 +27,6 @@ application:
       - name: Adrule
         path: https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/dns.txt
         type: easylist
-  
-      - name: AD-set-hosts
-        path: https://github.com/rentianyu/Ad-set-hosts/raw/refs/heads/master/hosts
-        type: hosts
 
       - name: Hagezi/dns-blocklists ultimate
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
