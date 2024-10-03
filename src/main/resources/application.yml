@@ -24,13 +24,13 @@ application:
   rule:
     #远程订阅规则 （！使用前请删除下方示例配置, 注意缩进）
     remote:
-      #- name: Adrule
-        #path: https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/dns.txt
-        #type: easylist
+      - name: Adrule
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/dns.txt
+        type: easylist
   
-      #- name: anti-AD
-        #path: https://github.com/privacy-protection-tools/anti-AD/raw/refs/heads/master/anti-ad-adguard.txt
-        #type: easylist
+      - name: anti-AD
+        path: https://github.com/privacy-protection-tools/anti-AD/raw/refs/heads/master/anti-ad-adguard.txt
+        type: easylist
 
       - name: Hagezi/dns-blocklists ultimate
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
