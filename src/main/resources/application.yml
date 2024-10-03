@@ -24,8 +24,8 @@ application:
   rule:
     #远程订阅规则 （！使用前请删除下方示例配置, 注意缩进）
     remote:
-      - name: Adrule
-        path: https://raw.githubusercontent.com/Cats-Team/AdRules/refs/heads/main/dns.txt
+      - name: 秋风规则
+        path: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/raw/refs/heads/main/Filters/AWAvenue-Ads-Rule-Adguard.txt
         type: easylist
 
       - name: Hagezi/dns-blocklists ultimate
