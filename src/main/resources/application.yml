@@ -36,8 +36,8 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt
         type: easylist
 
-      - name: blackmatrix7
-        path: https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
+      - name: 自用
+        path: https://raw.githubusercontent.com/fhvvbvn/adblockfilters/refs/heads/main/rules/adblockdns.txt
         type: easylist
 
       - name: Dynamic DNS
