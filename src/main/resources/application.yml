@@ -58,7 +58,7 @@ application:
       Title: 混合更新
       Version: ${date}
       Expires: 3 days
-      Description: 严格清理互联网并保护您的隐私！阻止广告、联盟、跟踪、指标、遥测、网络钓鱼、恶意软件、诈骗、免费托管、假冒、硬币和其他“垃圾”。
+      Description: 适用于AdGuard的去广告合并规则，严格清理互联网并保护您的隐私！阻止广告、联盟、跟踪、指标、遥测、网络钓鱼、恶意软件、诈骗、免费托管、假冒、硬币和其他“垃圾”。
       Homepage: https://github.com/fhvvbvn/ad-filters-subscriber
 
     path: rule #输出规则文件的路径，支持绝对/相对路径
