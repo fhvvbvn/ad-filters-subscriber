@@ -39,6 +39,10 @@ application:
       - name: 自用
         path: https://raw.githubusercontent.com/fhvvbvn/adblockfilters/refs/heads/main/rules/adblockdns.txt
         type: easylist
+
+      - name: Hagezi/dns-blocklists ultimate mini
+        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.mini.txt
+        type: easylist
         
       - name: blackmatrix7
         path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
