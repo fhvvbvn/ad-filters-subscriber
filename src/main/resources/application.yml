@@ -43,6 +43,10 @@ application:
       - name: adrule
         path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
         type: easylist
+
+      - name: anti-ad
+        path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
+        type: easylist
         
       - name: Dynamic DNS
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/dyndns.txt
