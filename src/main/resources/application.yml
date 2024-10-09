@@ -36,7 +36,7 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt
         type: easylist
 
-      - name: 自用
+      - name: 补充
         path: https://raw.githubusercontent.com/fhvvbvn/adblockfilters/refs/heads/main/rules/adblockdns.txt
         type: easylist
 
@@ -44,8 +44,8 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.mini.txt
         type: easylist
         
-      - name: blackmatrix7
-        path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingTest/AdvertisingTest.txt
+      - name: adrule
+        path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
         type: easylist
         
       - name: Dynamic DNS
