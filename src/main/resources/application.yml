@@ -32,12 +32,8 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
         type: easylist
 
-      - name: DNS
+      - name: DNS ip
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt
-        type: easylist
-
-      - name: 补充
-        path: https://raw.githubusercontent.com/fhvvbvn/adblockfilters/refs/heads/main/rules/adblockdns.txt
         type: easylist
 
       - name: Hagezi/dns-blocklists ultimate mini
