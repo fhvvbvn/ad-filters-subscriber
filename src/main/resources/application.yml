@@ -32,6 +32,10 @@ application:
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
         type: easylist
 
+      - name: OISD
+        path: https://big.oisd.nl
+        type: easylist
+
       - name: DNS ip
         path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/ips/doh.txt
         type: easylist
