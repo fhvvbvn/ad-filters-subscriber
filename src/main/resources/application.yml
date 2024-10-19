@@ -52,6 +52,10 @@ application:
         path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
         type: easylist
 
+      - name: NEO Dev
+        path: https://raw.githubusercontent.com/neodevpro/neodevhost/master/lite_adblocker
+        type: easylist
+
       - name: anti-ad
         path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
         type: easylist
