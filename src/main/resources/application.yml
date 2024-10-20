@@ -32,8 +32,16 @@ application:
         path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
         type: easylist
 
+      - name: Advertising
+        path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt
+        type: easylist
+
       - name: adrule
         path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
+        type: easylist
+
+      - name: Hagezi/dns-blocklists ultimate
+        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.mini.txt
         type: easylist
 
       - name: anti-ad
