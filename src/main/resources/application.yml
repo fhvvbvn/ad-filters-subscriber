@@ -28,8 +28,8 @@ application:
         path: https://github.com/TG-Twilight/AWAvenue-Ads-Rule/raw/refs/heads/main/Filters/AWAvenue-Ads-Rule-Adguard.txt
         type: easylist
 
-      - name: Hagezi/dns-blocklists ultimate
-        path: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt
+      - name: AdvertisingLite
+        path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
         type: easylist
 
       - name: adrule
