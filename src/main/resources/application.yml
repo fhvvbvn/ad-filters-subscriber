@@ -36,10 +36,6 @@ application:
         path: https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt
         type: easylist
 
-      - name: AdvertisingLite
-        path: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/AdvertisingLite/AdvertisingLite.txt
-        type: easylist
-
       - name: anti-ad
         path: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
         type: easylist
